@@ -47,7 +47,8 @@ class Xen:
 
     def Boot_Menu(self):
         clear_screen()
-        print(f"{LOGO}\n[*] Happy, Hacking ! [*]")
+        print_logo()
+        print("\n[*] Happy, Hacking ! [*]")
         delay(2)
         if os.geteuid() != 0:
             print("[ERROR] You need to be root to use the tool.")

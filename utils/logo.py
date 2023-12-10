@@ -24,3 +24,8 @@ Linux OS > |      .~  (__,.--" .^. "--.,__)  ~.
               |          \.    ^       ./
               |___         ^~~~^~~~~~~^            
 """
+
+def print_logo(sec=0.03):
+  for line in LOGO.split('\n'):
+    print(line)
+    delay(sec)
